@@ -1,0 +1,351 @@
+body{
+  background-color:#e5e5e5;
+}
+
+.wrapper{
+  width:1400px;
+  margin:0px auto 0;
+}
+
+
+header{
+  width: 1400px;
+  height: 110px;
+  margin:0px auto 0;
+  overflow:hidden;
+  position:relative;
+  box-shadow:0px 2px 0px rgba(0, 0, 0, 0.5)
+}
+
+.inner{
+  width: 1024px;
+  margin:0px auto 0;
+  overflow:hidden;
+}
+
+.header_red{
+  position:absolute;
+  left:0px;
+  top:100px;
+}
+
+header .ul-left ul{
+  float:left;
+  margin-right:150px;
+  margin-top:50px;
+  overflow:hidden;
+}
+
+header .ul-left ul li{
+  font-size:10px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  float:left;
+  margin-right:20px;
+}
+
+header .ul-left ul li a:link,
+header .ul-left ul li a:visited{
+  color:#191919;
+  text-decoration:none;
+  background:url(../homeimg/icon/triangle_g_s.png) left center no-repeat;
+  padding-left:10px;
+}
+
+header h1{
+  float:left;
+  margin-top:20px;
+}
+
+header .ul-right ul{
+  float:right;
+  margin-top:50px;
+  margin-right:66px;
+  overflow:hidden;
+}
+
+header .ul-right ul li{
+  font-size:10px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  float:left;
+  margin-right:20px;
+}
+
+header .ul-right ul li:last-child{
+  margin-right:0px;
+}
+
+header .ul-right ul li a:link,
+header .ul-right ul li a:visited{
+  color:#191919;
+  text-decoration:none;
+  background:url(../homeimg/icon/triangle_g_s.png) left center no-repeat;
+  padding-left:10px;
+}
+
+.facebook{
+  position:absolute;
+  left: 1159px;
+  top: 47px;
+}
+
+.twitter{
+  position:absolute;
+  left:1194px;
+  top:48px;
+}
+
+nav{
+  height: 60px;
+  background-color:rgba(0,0,0,0.7)
+}
+
+nav ul{
+  overflow:hidden;
+}
+
+nav ul li{
+  font-size:16px;
+  font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+  float:left;
+  width:204px;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+  color:#e5e5e5;
+  text-decoration:none;
+  text-align:center;
+  border-left: 1px solid #d6d6d6;
+  width: 204px;
+  display:block;
+}
+
+
+.reservation dt,
+.reservation dd{
+  float:left;
+}
+
+
+
+.contents{
+  background:url(../homeimg/icon/horizontalline.png)0 0 no-repeat;
+
+}
+
+h2{
+  font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+  font-size:24px;
+  text-align:center;
+  color:#930000;
+  padding-top:70px;
+}
+
+.hotel{
+  font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro";
+  font-size:16px;
+  line-height:2.25;
+  text-align:center;
+  color:#191919;
+  padding-top:30px;
+}
+
+h3{
+  background:url(../homeimg/icon/rectangle_g.jpg) left center no-repeat;
+  padding-left:10px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  font-size:20px;
+  color:#373737;
+}
+
+.whats-new{
+  float:left;
+  width: 670px;
+  padding-top:90px;
+  overflow:hidden;
+}
+
+.whats-new_contents{
+  padding-top:10px;
+}
+
+.whats-new dl{
+  font-size:12px;
+  color:#373737;
+  line-height:3.3;
+  overflow:hidden;
+/*   padding-top:10px; */
+  border-bottom: 1px dotted #c7c7c7;
+}
+
+.whats-new dl dt{
+  width: 108px;
+  float:left;
+  text-align:center;
+  padding-right:10px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+}
+
+.whats-new dl dd{
+  width:520px;
+  float:left;
+  text-align:left;
+  padding-right:10px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"
+}
+
+.whats-new dl .pic{
+  width: 22px;
+  float:right;
+  padding-top:10px;
+}
+
+.more_info{
+  padding-top:20px;
+  text-align:right;
+}
+
+.more_info a:link,
+.more_info a:visited{
+  clear:both;
+  background:url(../homeimg/icon/triangle_g_b.png) left center no-repeat;
+  padding-left:20px;
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  text-decoration:underline;
+  color:#636363;
+}
+
+aside{
+  float:right;
+  padding-top:124px;
+}
+
+.new01{
+  margin-bottom:18px;
+}
+
+.recommended_plan{
+  clear:both;
+  padding-top:60px;
+  overflow:hidden;
+}
+
+.anniversary_plan{
+  float:left;
+  width: 320px;
+  margin-right:30px;
+  margin-top:20px;
+  position:relative;
+}
+
+.hurry_plan{
+  float:left;
+  width: 320px;
+  margin-right:30px;
+  margin-top:20px;
+  position:relative;
+}
+
+.continue_plan{
+  float:right;
+  width: 320px;
+  margin-top:20px;
+  position:relative;
+}
+
+.recommended_plan h4{
+  width: 320px;
+  font-size:20px;
+  font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+  color:#e5e5e5;
+  text-align:center;
+  position:absolute;
+  bottom:30px;
+}
+
+.recommended_plan p{
+  width: 320px;
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:rgba(224,220,220,0.7);
+  text-align:center;
+  position:absolute;
+  bottom:10px;
+}
+
+.questions{
+  width: 1400px;
+  height: 255px;
+  background-color:#c7c7c7;
+  margin-top:80px;
+  position:relative;
+  overflow:hidden;
+}
+
+.questions img{
+  position:absolute;
+  left:187px;
+  top:40px;
+  background-color:rgba(255,255,255,0.4);
+  padding-right:779px;
+}
+
+.questions_contents{
+  width: 710px;
+  height: 133px;
+  position:absolute;
+  left:472px;
+  top:60px;
+  position:relative;
+}
+
+.questions_contents h4{
+  padding-top:7px;
+  font-size:16px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#373737;
+  margin-bottom:10px;
+}
+
+.address{
+  float:left;
+  width: 220px;
+  margin-left:10px;
+  margin-right:25px;
+}
+
+.address p{
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  color:#373737;
+  line-height:2;
+}
+
+.address .checkin_out{
+  line-height:1.3;
+}
+
+.tel{
+  float:left;
+  width:296px;
+  margin-right:20px;
+  font-size:28px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#930000;
+  position:absolute;
+  bottom:0px;
+  left:255px;
+}
+
+.questions_button a:link,
+.questions_button a:visited{
+  float:right;
+  width:150px;
+  height: 48px;
+  font-size:16px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  text-decoration:none;
+  color:#fff;
+  line-height:3;
+}
