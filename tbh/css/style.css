@@ -276,11 +276,6 @@ header .ul-right ul li a:visited{
   line-height:1.8;
 }
 
-.reservation p{
-  width: 115px;
-  height: 48px;
-}
-
 .reservation p a:link,
 .reservation p a:visited{
   width: 115px;
