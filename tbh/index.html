@@ -33,106 +33,108 @@
   </header>
 
 
-  <nav class="nav_bgwrapper">
-    <div class="nav_bgupper">
-    <img src="homeimg/header_red.jpg" alt="header_red">
-    <div class="inner">
-      <ul>
-        <li><a href="room.html">ご宿泊<br><span>Stay</span></a></li>
-        <li><a href="#">バーラウンジ<br><span>Bar Lounge</span></a></li>
-        <li><a href="#">レストラン<br><span>Restaurant</span></a></li>
-        <li><a href="#">ギャラリー<br><span>Gallary</span></a></li>
-        <li><a href="#">交通案内<br><span>Access</span></a></li>
-      </ul>
-    </div><!-- inner -->
-  </div><!-- nav_bgupper -->
-  </nav>
 
+  <div class="main">
+    <nav class="nav_bgwrapper">
+      <div class="nav_bgupper">
+        <ul>
+          <li><a href="room.html">ご宿泊<span>Stay</span></a></li>
+          <li><a href="#">バーラウンジ<span>Bar Lounge</span></a></li>
+          <li><a href="#">レストラン<span>Restaurant</span></a></li>
+          <li><a href="#">ギャラリー<span>Gallary</span></a></li>
+          <li><a href="#">交通案内<span>Access</span></a></li>
+        </ul>
+      </div><!-- nav_bgupper -->
+    </nav>
 
+      <img class="copy" src="homeimg/copy.png" alt="mainCopy">
+      <img class="next" src="homeimg/icon/dotsnav.png" alt="dotsnav">
 
-  <div>
-    <img src="homeimg/copy.png" alt="mainCopy">
-    <img src="homeimg/mainVisual.jpg" alt="Tokyo Baside Hotel mainVisual">>
-    <ul>
-      <li>
-        <img src="homeimg/icon/arrow_left.png" alt="arrow_left">
-        <img src="homeimg/icon/arrow_right.png" alt="arrow_right">
-      </li>
+    <div>
+      <a href="#"><img class="arrow_left" src="homeimg/icon/arrow_left.png" alt="arrow_left"></a>
+      <a href="#"><img class="arrow_right" src="homeimg/icon/arrow_right.png" alt="arrow_right"></a>
+    </div>
+
+    <ul class="mainVisuals">
+      <li><img src="homeimg/mainVisual_left.jpg" alt="mainVisual left"></li>
+      <li><img src="homeimg/mainVisual.jpg" alt="Tokyo Baside Hotel mainVisual"></li>
+      <li><img src="homeimg/mainVisual_right.jpg" alt="mainVisual right"></li>
     </ul>
+
+
+    <section class="search_reserve">
+      <div class="reserve_bg"><h5>お部屋検索・宿泊予約</h5></div>
+      <form class="reserve" action="reservation.php">
+        <div class="reservation">
+          <dl>
+            <dt>宿泊日</dt>
+            <dd class="date"><span>2015</span><span>05</span><span>08</span></dd>
+            <dd><img src="homeimg/icon/calendar.png" alt=""></dd>
+
+            <dt>泊数</dt>
+            <dd>
+              <select name="days" id="days">
+                <option value="1泊">1</option>
+                <option value="2泊">2</option>
+                <option value="3泊">3</option>
+                <option value="4泊">4</option>
+                <option value="5泊">5</option>
+                <option value="6泊">6</option>
+                <option value="7泊">7</option>
+              </select>
+            </dd>
+
+            <dt>大人</dt>
+            <dd>
+              <select name="adult" id="adult">
+                <option value="1人">1</option>
+                <option value="2人">2</option>
+                <option value="3人">3</option>
+                <option value="4人">4</option>
+                <option value="5人">5</option>
+                <option value="6人">6</option>
+                <option value="7人">7</option>
+                <option value="8人">8</option>
+                <option value="9人">9</option>
+                <option value="10人">10</option>
+              </select>
+            </dd>
+
+            <dt>子供</dt>
+            <dd>
+              <select name="child" id="child">
+                <option value="1人">1</option>
+                <option value="2人">2</option>
+                <option value="3人">3</option>
+                <option value="4人">4</option>
+                <option value="5人">5</option>
+                <option value="6人">6</option>
+                <option value="7人">7</option>
+                <option value="8人">8</option>
+                <option value="9人">9</option>
+                <option value="10人">10</option>
+              </select>
+            </dd>
+
+            <dt>客室タイプ</dt>
+            <dd>
+              <select name="roomtype" id="roomtype">
+                <option value="スタンダードシングル">スタンダードシングル</option>
+                <option value="スーペリアシングル">スーペリアシングル</option>
+                <option value="スタンダードダブル">スタンダードダブル</option>
+                <option value="スーペリアダブル">スーペリアダブル</option>
+                <option value="スタンダードツイン">スタンダードツイン</option>
+                <option value="スーペリアツイン">スーペリアツイン</option>
+                <option value="ベイサイドスイート">ベイサイドスイート</option>
+                <option value="バリアフリールーム">バリアフリールーム</option>
+              </select>
+            </dd>
+          </dl>
+          <p><a href="#">お部屋検索</a></p>
+        </div>
+      </form>
+    </section>
   </div><!-- mainVisual -->
-
-
-
-  <section class="reserve">
-    <h5>お部屋検索・宿泊予約<img src="homeimg/icon/down.png" alt="down"></h5>
-    <form action="reservation.php">
-      <dl class="reservation">
-        <dt>宿泊日</dt>
-        <dd><span>2015</span>/<span>05</span>/<span>08</span></dd>
-        <dd><img src="homeimg/icon/calendar.png" alt=""></dd>
-
-        <dt>泊数</dt>
-        <dd>
-          <select name="days" id="days">
-            <option value="1泊">1</option>
-            <option value="2泊">2</option>
-            <option value="3泊">3</option>
-            <option value="4泊">4</option>
-            <option value="5泊">5</option>
-            <option value="6泊">6</option>
-            <option value="7泊">7</option>
-          </select>
-        </dd>
-
-        <dt>大人</dt>
-        <dd>
-          <select name="adult" id="adult">
-            <option value="1人">1</option>
-            <option value="2人">2</option>
-            <option value="3人">3</option>
-            <option value="4人">4</option>
-            <option value="5人">5</option>
-            <option value="6人">6</option>
-            <option value="7人">7</option>
-            <option value="8人">8</option>
-            <option value="9人">9</option>
-            <option value="10人">10</option>
-          </select>
-        </dd>
-
-        <dt>子供</dt>
-        <dd>
-          <select name="child" id="child">
-            <option value="1人">1</option>
-            <option value="2人">2</option>
-            <option value="3人">3</option>
-            <option value="4人">4</option>
-            <option value="5人">5</option>
-            <option value="6人">6</option>
-            <option value="7人">7</option>
-            <option value="8人">8</option>
-            <option value="9人">9</option>
-            <option value="10人">10</option>
-          </select>
-        </dd>
-
-        <dt>客室タイプ</dt>
-        <dd>
-          <select name="roomtype" id="roomtype">
-            <option value="スタンダードシングル">スタンダードシングル</option>
-            <option value="スーペリアシングル">スーペリアシングル</option>
-            <option value="スタンダードダブル">スタンダードダブル</option>
-            <option value="スーペリアダブル">スーペリアダブル</option>
-            <option value="スタンダードツイン">スタンダードツイン</option>
-            <option value="スーペリアツイン">スーペリアツイン</option>
-            <option value="ベイサイドスイート">ベイサイドスイート</option>
-            <option value="バリアフリールーム">バリアフリールーム</option>
-          </select>
-        </dd>
-      </dl>
-      <p><a href="#">お部屋検索</a></p>
-    </form>
-  </section>
 
 
 <div class="inner">
@@ -302,19 +304,19 @@
             <div class=language>
               <dl class="language_bar">
                 <dt><img src="homeimg/icon/japanflag.jpg" alt="japanese"></dt>
-                <dd><p><a href="#">日本語</a></p></dd>
+                <dd><a href="#">日本語</a></dd>
               </dl>
               <dl class="language_bar">
                 <dt><img src="homeimg/icon/americaflag.jpg" alt="american"></dt>
-                <dd><p><a href="#">English</a></p></dd>
+                <dd><a href="#">English</a></dd>
               </dl>
               <dl class="language_bar">
                 <dt><img src="homeimg/icon/chinaflag.jpg" alt="chinese"></dt>
-                <dd><p><a href="#">中文简体</p></a></dd>
+                <dd><a href="#">中文简体</a></dd>
               </dl>
               <dl>
                 <dt><img src="homeimg/icon/koreaflag.jpg" alt="korean"></dt>
-                <dd><p><a href="#">한국어</a></p></dd>
+                <dd><a href="#">한국어</a></dd>
               </dl>
             </div><!-- language -->
 

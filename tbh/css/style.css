@@ -86,12 +86,22 @@ header .ul-right ul li a:visited{
   top:48px;
 }
 
+.main{
+  width: 100%;
+  height: 580px;
+  position:relative;
+  padding-bottom:70px;
+}
+
 .nav_bgwrapper{
-  width:100%;
+  width: 100%;
   height: 70px;
   margin:0px auto 0;
   background-color:rgba(0,0,0,0.7);
+  background-size:cover;
+  text-align:center;
   position:relative;
+  z-index:1;
 }
 
 .nav_bgupper{
@@ -99,53 +109,195 @@ header .ul-right ul li a:visited{
   height: 10px;
   margin:0px auto 0;
   background-color:#930000;
+  background-size:cover;
+  text-align:center;
   position:absolute;
   top:0px;
   box-shadow:0px 2px 2px rgba(0,0,0,0.6)
 }
 
-nav img{
-  position:absolute;
-  top:0px;
-}
-
-nav ul{
+.main nav .nav_bgupper ul{
+  width: 1030px;
+  height: 70px;
+  margin:0px auto;
   overflow:hidden;
 }
 
-nav ul li{
+.main nav .nav_bgupper ul li{
   font-size:16px;
   font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
   float:left;
-  width:204px;
-  padding-top:25px;
-  background:url(../homeimg/icon/nav_line.png) left bottom no-repeat;
+  width: 204px;
+  height: 70px;
+  line-height:1.3;
+  padding-top:20px;
+  border-left: 1px solid rgba(229,229,229,0.4);
 }
 
-nav ul li a:link,
-nav ul li a:visited{
+.main nav .nav_bgupper ul li span{
+  font-size:12px;
+  display:block;
+}
+
+.main nav .nav_bgupper ul li:last-child{
+  border-left:1px solid rgba(229,229,229,0.4);
+  border-right:1px solid rgba(229,229,229,0.4);
+}
+
+.main nav .nav_bgupper ul li a:link,
+.main nav .nav_bgupper ul li a:visited{
   color:#e5e5e5;
   text-decoration:none;
   text-align:center;
   width: 204px;
+  height: 70px;
   display:block;
 }
 
-nav ul li a:hover{
-  color:#191919;
+.main nav .nav_bgupper ul li a:hover{
+  width: 204px;
+  height: 70px;
+  color:#708d81;
 }
 
-nav ul li span{
-  font-size:12px;
+.main .copy{
+  position:absolute;
+  margin:0px auto;
+  z-index:1;
+  top:130px;
+  left:70px;
+}
+
+.main .next{
+  z-index:1;
+  position:absolute;
+  top:400px;
+}
+
+.arrow_left{
+  position:absolute;
+  top:275px;
+  left:120px;
+  z-index:2;
+}
+
+.arrow_right{
+  position:absolute;
+  top:275px;
+  right:120px;
+  z-index:2;
+}
+
+.main .mainVisuals{
+  width: 3072px;
+  height: 580px;
+  position:absolute;
+  top:0px;
+  left:50%;
+  margin-left:-1536px;
+}
+
+.main .mainVisuals li{
+  float:left;
+  width: 1024px;
+  z-index:3;
 }
 
 .reserve{
+  z-index:1;
+  width: 100%;
+  height: 80px;
+  position:absolute;
+  top:500px;
+  background-color:rgba(25,25,25,0.8);
+  background-size:cover;
   margin-bottom:40px;
+}
+
+.reserve_bg{
+  width: 170px;
+  height: 30px;
+  background:url(../homeimg/icon/down.png) right center no-repeat;
+  position:absolute;
+  top:470px;
+  left:44%;
+}
+
+.search_reserve h5{
+  padding-left:13px;
+  z-index:1;
+  text-align:left;
+  font-size:12px;
+  line-height:2.5;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#fff;
+}
+
+.reservation{
+  width: 870px;
+  height: 80px;
+  margin:0px auto;
 }
 
 .reservation dt,
 .reservation dd{
   float:left;
+  padding-top:30px;
+}
+
+.reservation dt{
+  font-size:14px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#e5e5e5;
+  padding-right:7px;
+  padding-top:33px;
+}
+
+.reservation dd{
+  padding-right:20px;
+}
+
+.reservation .date{
+  width: 112px;
+  height: 50px;
+  background:url(../homeimg/icon/date.png) 0 center no-repeat;
+  padding-right:10px;
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#969696;
+}
+
+.reservation .date span{
+  padding-left:10px;
+  line-height:1.8;
+}
+
+.reservation p{
+  width: 115px;
+  height: 48px;
+}
+
+.reservation p a:link,
+.reservation p a:visited{
+  width: 115px;
+  height: 48px;
+  font-size:16px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  text-decoration:none;
+  color:#fff;
+  line-height:3;
+  border: 1px solid #920000;
+  background: #930000; Old browsers
+    background: -moz-linear-gradient(top,  #930000 0%, #760000 100%); FF3.6+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#930000), color-stop(100%,#760000)); Chrome,Safari4+
+    background: -webkit-linear-gradient(top,  #930000 0%,#760000 100%); Chrome10+,Safari5.1+
+    background: -o-linear-gradient(top,  #930000 0%,#760000 100%); Opera 11.10+
+    background: -ms-linear-gradient(top,  #930000 0%,#760000 100%); IE10+
+    background: linear-gradient(to bottom,  #930000 0%,#760000 100%); W3C
+  box-shadow:0px 2px 4px rgba(0,0,0,0.4);
+  text-align:center;
+  text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+
 }
 
 .contents{
@@ -266,7 +418,7 @@ aside{
 }
 
 .recommended_plan img{
-  box-shadow:0px 2px 3px rgba(0,0,0,0.3)
+  box-shadow:0px 2px 3px rgba(0,0,0,0.3);
 }
 
 .recommended_plan h4{
@@ -435,7 +587,7 @@ aside{
   height: 62px;
   padding-top:206px;
   position:relative;
- */}
+ }
 
 .about_hotel{
   width: 331px;
@@ -497,8 +649,8 @@ aside{
   padding-right:10px;
 }
 
-.language dl dd p a:link,
-.language dl dd p a:visited{
+.language dl dd a:link,
+.language dl dd a:visited{
   text-decoration:none;
   color:#e5e5e5;
   font-size:12px;
