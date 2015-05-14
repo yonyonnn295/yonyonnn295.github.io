@@ -56,7 +56,7 @@
 
 
 
-    <section class="contents">
+    <div class="contents">
       <h2>ダブルルーム<span>Double Room</span></h2>
       <img class="double-main" src="roomimg/double-main.png" alt="double-main">
       <ul class="thumb">
@@ -66,11 +66,11 @@
         <li><img src="roomimg/thumb04.png" alt="thumb04"></li>
       </ul>
 
-
-      <section class="contents_more">
-        <div class="contents_left">
+      <div class="contents_more">
+        <section class="contents_left">
           <h3>ご予約</h3>
           <form action="doubleroom-reservation.php">
+            <div class="doubleroom-reservation">
             <dl>
               <dt>宿泊日</dt>
               <dd><span>2015</span>/<span>05</span>/<span>08</span></dd>
@@ -129,165 +129,159 @@
                 </select>
               </dd>
             </dl>
+            <p><a href="#">予約する</a></p>
+            </div> <!-- doubleroom-reservation -->
           </form>
-          <p><a href="#">予約する</a></p>
-        </section><!-- doubleroom-reservation -->
-
-        <section>
-          <h3>その他の客室</h3>
-          <div>
-            <img src="roomimg/etc01.png" alt="etc01">
-            <p>シングルルーム</p>
-          </div>
-          <div>
-            <img src="roomimg/etc02.png" alt="etc02">
-            <p>ダブルルーム</p>
-          </div>
-          <div>
-            <img src="roomimg/etc03.png" alt="etc03">
-            <p>ツインルーム</p>
-          </div>
-          <div>
-            <img src="roomimg/etc04.png" alt="etc04">
-            <p>スイートルーム</p>
-          </div>
-          <div>
-            <img src="roomimg/etc05.png" alt="etc05">
-            <p>バリアフリールーム</p>
-          </div>
-        </section><!-- h3　その他の客室 -->
-      </div> <!-- contents_left -->
 
 
-<div class="contents_right"><section>
-    <h3>ダブルルーム</h3>
-    <ul>
-      <li>スタンダードダブル</li>
-      <li>スーペリアダブル</li>
-    </ul>
+          <div class="roometc">
+            <h3 class="h3roometc">その他の客室</h3>
+            <ul>
+              <li><img src="roomimg/etc01.png" alt="etc01"></li>
+              <li><a href="#">シングルルーム</a></li>
+            </ul>
+            <ul>
+              <li><img src="roomimg/etc02.png" alt="etc02"></li>
+              <li><a href="#">ダブルルーム</a></li>
+            </ul>
+            <ul>
+              <li><img src="roomimg/etc03.png" alt="etc03"></li>
+              <li><a href="#">ツインルーム</a></li>
+            </ul>
+            <ul>
+              <li><img src="roomimg/etc04.png" alt="etc04"></li>
+              <li><a href="#">スイートルーム</a></li>
+            </ul>
+            <ul>
+              <li><img src="roomimg/etc05.png" alt="etc05"></li>
+              <li class="barrierfree"><a href="#">バリアーフリー<span>ルーム</span></a></li>
+            </ul>
+          </div><!--  roometc -->
+        </section><!--  contents_left -->
 
-    <section>
-      <h4>スタンダードダブル</h4>
-      <p>上品な雰囲気でまとめられたダブルルーム。<br>大きめのダブルベッドが癒しの空間へと誘ってくれます。</p>
-      <p>面積　16m２</p>
-      <p>ベッド幅　1500mm</p>
-      <table>
-        <tr>
-          <th>チェックイン</th>
-          <td>15:00~</td>
-        </tr>
-        <tr>
-          <th>チェックアウト</th>
-          <td>~11:00</td>
-        </tr>
-      </table>
-      <p>¥17,300(税込)〜</p>
-      <img src="roomimg/icon/roompic.png" alt="roompic">
-    </section><!-- h4スタンダードダブル -->
+        <section class="contents_right">
+          <div class="doubleroom-content">
+            <h3>ダブルルーム</h3>
+              <div class="doubleroom">
+                <ul class="choose">
+                  <li class="standard">スタンダードダブル</li>
+                  <li class="superier">スーペリアダブル</li>
+                </ul>
 
-    <section>
-      <h4>電話でのご予約・お問い合わせ</h4>
-      <img src="roomimg/icon/cellphone.png" alt="cellphone">
-      <p>03-6700-0001</p>
-      <p>Fax:03-6700-0007</p>
-    </section><!-- h4電話でのご予約 -->
-  </section><!-- h3ダブルルーム -->
+                <div class="doubleroom-info">
+                  <h4>スタンダードダブル</h4>
+                  <div class="info-left">
+                    <p>上品な雰囲気でまとめられたダブルルーム。<br>大きめのダブルベッドが癒しの空間へと誘ってくれます。</p>
+                    <ul class="button">
+                      <li class="button1">面積　16m２</li>
+                      <li class="button2">ベッド幅　1500mm</li>
+                    </ul>
+                    <table>
+                      <tr>
+                        <th>チェックイン</th>
+                        <td>15:00~</td>
+                      </tr>
+                      <tr>
+                        <th>チェックアウト</th>
+                        <td>~11:00</td>
+                      </tr>
+                    </table>
+                    <p>¥17,300(税込)〜</p>
+                  </div>
+                  <div class="info-right">
+                    <img src="roomimg/icon/roompic.png" alt="roompic">
+                  </div>
 
+                  <h4>電話でのご予約・お問い合わせ</h4>
+                  <img src="roomimg/icon/cellphone.png" alt="cellphone">
+                  <p>03-6700-0001</p>
+                  <p>Fax:03-6700-0007</p>
+                </div> <!-- doubleroom-info -->
+              </div><!--  doubleroom -->
+          </div> <!-- doubleroom-content -->
 
-  <section>
-    <h3>ご案内</h3>
+          <div class="information">
+            <h3>ご案内</h3>
+              <h4>ルームアメニティ</h4>
+              <ul>
+                <li>ナイトウェア</li>
+                <li>スリッパ</li>
+                <li>シャンプー・コンディショナー</li>
+                <li>ヘアブラシー</li>
+                <li>化粧水</li>
+                <li>レザー(ひげそり)</li>
+                <li>ミネラルウォーター</li>
+                <li>バスローブ</li>
+                <li>ビーチサンダル</li>
+                <li>ボディソープ</li>
+                <li>バスソルト</li>
+                <li>ボディタオル</li>
+                <li>コットン・綿棒</li>
+                <li>エミリーボード(爪やスリ)</li>
+              </ul>
 
-    <section>
-      <h4>ルームアメニティ</h4>
-      <ul>
-        <li>ナイトウェア</li>
-        <li>スリッパ</li>
-        <li>シャンプー・コンディショナー</li>
-        <li>ヘアブラシー</li>
-        <li>化粧水</li>
-        <li>レザー(ひげそり)</li>
-        <li>ミネラルウォーター</li>
-        <li>バスローブ</li>
-        <li>ビーチサンダル</li>
-        <li>ボディソープ</li>
-        <li>バスソルト</li>
-        <li>ボディタオル</li>
-        <li>コットン・綿棒</li>
-        <li>エミリーボード(爪やスリ)</li>
-      </ul>
-    </section><!-- h4ルームアメニティ -->
+              <h4>客室設備</h4>
+              <ul>
+                <li>シャワートイレ</li>
+                <li>冷蔵庫</li>
+                <li>液晶テレビ</li>
+                <li>高速インターネット通信回線</li>
+                <li>ユニットバス内電話</li>
+                <li>イオンドライヤー</li>
+                <li>ズボンプレッサー</li>
+              </ul>
 
-    <section>
-      <h4>客室設備</h4>
-      <ul>
-        <li>シャワートイレ</li>
-        <li>冷蔵庫</li>
-        <li>液晶テレビ</li>
-        <li>高速インターネット通信回線</li>
-        <li>ユニットバス内電話</li>
-        <li>イオンドライヤー</li>
-        <li>ズボンプレッサー</li>
-      </ul>
-    </section><!-- h4 客室設備 -->
+              <h4>サービス</h4>
+              <table>
+                <tr>
+                  <th><img src="roomimg/icon/laundry.png" alt="laundry">ランドリー</th>
+                  <td>10:00までの集荷　→　当日夕刻のお渡し<br>10:00以降の場合　→　翌日昼のお渡し      ※休み：日曜日</td>
+                </tr>
+                <tr>
+                  <th><img src="roomimg/icon/massage.png" alt="massage">マッサージ</th>
+                  <td>受付：19:00 ~ 26:00(翌日午前2時)</td>
+                </tr>
+                <tr>
+                  <th><img src="roomimg/icon/wifi.png" alt="wifi">インターネット</th>
+                  <td>高速インターネット回線を全客室に完備</td>
+                </tr>
+                <tr>
+                  <th><img src="roomimg/icon/video.png" alt="videoondemand">ビデオ・オン・デマンド</th>
+                  <td>お好きな時間に各種ビデオをはじめ、最新ムービーまでお楽しみ頂ける映像配信<br>システムです。<br>・プリペードカード　1,000円</td>
+                </tr>
+              </table>
 
-    <section>
-      <h4>サービス</h4>
-      <table>
-        <tr>
-          <th><img src="roomimg/icon/laundry.png" alt="laundry">ランドリー</th>
-          <td>10:00までの集荷　→　当日夕刻のお渡し<br>10:00以降の場合　→　翌日昼のお渡し      ※休み：日曜日</td>
-        </tr>
-        <tr>
-          <th><img src="roomimg/icon/massage.png" alt="massage">マッサージ</th>
-          <td>受付：19:00 ~ 26:00(翌日午前2時)</td>
-        </tr>
-        <tr>
-          <th><img src="roomimg/icon/wifi.png" alt="wifi">インターネット</th>
-          <td>高速インターネット回線を全客室に完備</td>
-        </tr>
-        <tr>
-          <th><img src="roomimg/icon/video.png" alt="videoondemand">ビデオ・オン・デマンド</th>
-          <td>お好きな時間に各種ビデオをはじめ、最新ムービーまでお楽しみ頂ける映像配信<br>システムです。<br>・プリペードカード　1,000円</td>
-        </tr>
-      </table>
-    </section><!-- h4 サービス -->
+              <h4>料金のご案内</h4>
+                <h5>早着料金</h5>
+                <table>
+                  <tr>
+                    <th>11:00~</th>
+                    <td>室料の50%</td>
+                  </tr>
+                  <tr>
+                    <th>13:00~</th>
+                    <td>室料の30%</td>
+                  </tr>
+                </table>
+                <p>11:00以前：室料の100%</p>
 
-    <section>
-      <h4>料金のご案内</h4>
-      <section>
-        <h5>早着料金</h5>
-        <table>
-          <tr>
-            <th>11:00~</th>
-            <td>室料の50%</td>
-          </tr>
-          <tr>
-            <th>13:00~</th>
-            <td>室料の30%</td>
-          </tr>
-        </table>
-        <p>11:00以前：室料の100%</p>
-      </section><!-- 早着料金 -->
-
-      <section>
-        <h5>延長料金</h5>
-        <table>
-          <tr>
-            <th>~13:00</th>
-            <td>室料の30%</td>
-          </tr>
-          <tr>
-            <th>~15:00</th>
-            <td>室料の50%</td>
-          </tr>
-        </table>
-        <p>15:00以降：室料の100%</p>
-      </section><!-- 延長料金 -->
-    </section><!-- h4　料金のご案内 -->
-  </section><!-- h3ご案内 -->
-      </section><!-- Double Room section -->
-  </div>  </div><!-- inner -->
-
+                <h5>延長料金</h5>
+                <table>
+                  <tr>
+                    <th>~13:00</th>
+                    <td>室料の30%</td>
+                  </tr>
+                  <tr>
+                    <th>~15:00</th>
+                    <td>室料の50%</td>
+                  </tr>
+                </table>
+                <p>15:00以降：室料の100%</p>
+          </div><!--  information -->
+        </section><!--  contents_right -->
+      </div> <!-- contents_more -->
+    </div> <!-- contents -->
+  </div> <!-- inner -->
   <footer>
     <section class="questions_wrapper">
       <div class="inner">
@@ -411,6 +405,7 @@
       </div><!-- inner -->
     </div> <!-- footer_wrapper -->
   </footer>
-</div><!-- wrapper -->
+
+</div> <!-- wrapper -->
 </body>
 </html>

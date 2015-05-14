@@ -95,7 +95,7 @@ header .ul-right ul li a:visited{
   width: 100%;
   height: 70px;
   margin:0px auto 0;
-  background-color:rgba(0,0,0,0.7);
+  background-color:rgba(0,0,0,0.5);
   background-size:cover;
   text-align:center;
   position:relative;
@@ -162,7 +162,7 @@ nav .nav_bgupper ul li a:visited{
 nav .nav_bgupper ul li a:hover{
   width: 204px;
   height: 70px;
-  color:#708d81;
+  color:#930000;
 }
 
 ol{
@@ -243,7 +243,214 @@ ol li a:hover{
   padding-top:70px;
   margin-top:413px;
   background:url(../homeimg/icon/horizontalline.png) 0 0 no-repeat;
+  overflow:hidden;
 }
+
+.contents_left{
+  float:left;
+  width: 270px;
+}
+
+.contents_right{
+  float:right;
+  width: 700px;
+}
+
+h3{
+  font-size:20px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#373737;
+  background:url(../homeimg/icon/rectangle_g.jpg) left center no-repeat;
+  padding-left:10px;
+}
+
+.doubleroom-reservation{
+  width: 270px;
+  height: 260px;
+  margin-top:30px;
+  background-color:#930000;
+  position:relative;
+}
+
+
+.doubleroom-reservation p a:link,
+.doubleroom-reservation p a:visited{
+  position:absolute;
+  bottom:20px;
+  left:78px;
+  width: 115px;
+  height: 48px;
+  font-size:16px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#191919;
+  text-decoration:none;
+  line-height:3;
+  background: #e5e5e5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #e5e5e5 0%, #cfcfcf 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#cfcfcf)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #e5e5e5 0%,#cfcfcf 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #e5e5e5 0%,#cfcfcf 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #e5e5e5 0%,#cfcfcf 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #e5e5e5 0%,#cfcfcf 100%); /* W3C */
+  box-shadow:0px 2px 4px rgba(0,0,0,0.4);
+  text-align:center;
+  text-shadow:0px -1px 0px rgba(0,0,0,0.5);
+  display:block;
+}
+
+.roometc{
+  margin-top:50px;
+  background:url(../roomimg/icon/horizontal_short.png) 0 0 no-repeat;
+  padding-top:50px;
+}
+
+.h3roometc{
+  font-size:14px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#708d81;
+  text-align:center;
+  background:none;
+}
+
+.roometc ul{
+  width: 270px;
+  height: 80px;
+  background-color:rgba(199,199,199,0.4);
+  margin-top:20px;
+  position:relative;
+}
+
+.roometc ul li img{
+  margin-top:12px;
+}
+
+.roometc ul li a:link,
+.roometc ul li a:visited{
+  width: 148px;
+  height: 80px;
+  position:absolute;
+  right:0px;
+  top:0px;
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#636363;
+  line-height:1.5;
+  padding-top:30px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+}
+
+.roometc ul .barrierfree a:link,
+.roometc ul .barrierfree a:visited{
+  width: 148px;
+  height: 80px;
+  position:absolute;
+  right:0px;
+  top:0px;
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#636363;
+  line-height:1.5;
+  padding-top:20px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+}
+
+.roometc ul li a span{
+  display:block;
+}
+
+.doubleroom{
+  margin-top:30px;
+  position:relative;
+}
+
+.doubleroom .choose{
+  overflow:hidden;
+  z-index:1;
+}
+
+.doubleroom .choose li{
+  font-family: "ヒラギノ明朝 Pro","Hiragino Mincho Pro"; font-weight: bold;
+  color:#e5e5e5;
+  text-align:center;
+}
+
+.standard{
+  width: 350px;
+  height: 80px;
+  font-size:18px;
+  background:url(../roomimg/icon/activated.png)0 0 no-repeat;
+  line-height:3.4;
+  float:left;
+}
+
+.superier{
+  width: 350px;
+  height: 45px;
+  font-size:16px;
+  background-color:rgba(25,25,25,0.7);
+  line-height:2.6;
+  margin-top:15px;
+  float:right;
+}
+
+.contents_right h4{
+  font-size:18px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
+  color:#373737;
+  background:url(../roomimg/icon/circle_r.png) left center no-repeat;
+  padding-left:15px;
+}
+
+.doubleroom-info{
+  margin-top:-22px;
+  padding:60px 40px;
+  border: 2px solid #c7c7c7;
+  overflow:hidden;
+}
+
+.doubleroom-info p{
+  padding-top:30px;
+  font-size:12px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  color:#373737;
+  line-height:2;
+}
+
+.info-left{
+  width: 380px;
+  float:left;
+}
+
+.info-right{
+  width: 225px;
+  float:right;
+}
+
+.button1{
+  float:left;
+}
+
+.button2{
+  float:right;
+}
+
+.button li{
+  color:#373737;
+  font-size:14px;
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  width: 170px;
+  height: 35px;
+  background-color: #dcdcdc;
+  border-radius:10px;
+  text-align:center;
+  line-height:2.6;
+}
+
+
 
 
 
