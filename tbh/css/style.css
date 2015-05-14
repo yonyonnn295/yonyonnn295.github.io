@@ -43,6 +43,10 @@ header .ul-left ul li a:visited{
   padding-left:10px;
 }
 
+header .ul-left ul li a:hover{
+  text-decoration:underline;
+}
+
 header h1{
   float:left;
   margin-top:20px;
@@ -366,8 +370,18 @@ h3{
   width:550px;
   float:left;
   text-align:left;
-  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
   background:url(../homeimg/icon/pic.png) right center no-repeat;
+}
+
+.whats-new dl dd a:link,
+.whats-new dl dd a:visited{
+  font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro";
+  text-decoration:none;
+  color:#373737
+}
+
+.whats-new dl dd a:hover{
+  text-decoration:underline;
 }
 
 .more_info{
@@ -381,8 +395,12 @@ h3{
   padding-left:20px;
   font-size:12px;
   font-family: "ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro"; font-weight: bold;
-  text-decoration:underline;
+  text-decoration:none;
   color:#636363;
+}
+
+.more_info a:hover{
+  text-decoration:underline;
 }
 
 aside{
@@ -565,6 +583,10 @@ aside{
   display:block;
   text-decoration:none;
   margin-bottom:10px;
+}
+
+.sitemap ul li dl dt a:hover{
+  text-decoration:underline;
 }
 
 .sitemap ul li .sitemap_long dt a:link,
