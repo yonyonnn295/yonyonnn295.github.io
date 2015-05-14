@@ -10,40 +10,42 @@
 <div class="wrapper">
   <header>
     <div class="inner">
-    <div class="ul-left">
-      <ul>
-        <li><a href="#">東京ベイサイドホテル</a></li>
-        <li><a href="#">新着情報</a></li>
-        <li><a href="#">おすすめプラン</a></li>
-      </ul>
-    </div>
+      <div class="ul-left">
+        <ul>
+          <li><a href="#">東京ベイサイドホテル</a></li>
+          <li><a href="#">新着情報</a></li>
+          <li><a href="#">おすすめプラン</a></li>
+        </ul>
+      </div>
 
-    <h1><a href="index.html"><img src="homeimg/logo.png" alt="Tokyo Bayside Hotel"></a></h1>
+      <h1><a href="index.html"><img src="homeimg/logo.png" alt="Tokyo Bayside Hotel"></a></h1>
 
-    <div class="ul-right">
-      <ul>
-        <li><a href="#">ログイン</a></li>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">お問い合わせ</a></li>
-      </ul>
-    </div>
-    <a href="#"><img class="facebook" src="homeimg/icon/facebook.png" alt="facebook"></a>
-    <a href="#"><img class="twitter" src="homeimg/icon/twitter.png" alt="twitter"></a>
-
-      <img class="header_red" src="homeimg/header_red.jpg" alt="">
+      <div class="ul-right">
+        <ul>
+          <li><a href="#">ログイン</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </div><!-- ul-right -->
+      <a href="#"><img class="facebook" src="homeimg/icon/facebook.png" alt="facebook"></a>
+      <a href="#"><img class="twitter" src="homeimg/icon/twitter.png" alt="twitter"></a>
     </div><!-- inner -->
   </header>
 
 
-<div class="inner">
-  <nav>
-    <ul>
-      <li><a href="room.html">ご宿泊<span>Stay</span></a></li>
-      <li><a href="#">バーラウンジ<span>Bar Lounge</span></a></li>
-      <li><a href="#">レストラン<span>Restaurant</span></a></li>
-      <li><a href="#">ギャラリー<span>Gallary</span></a></li>
-      <li><a href="#">交通案内<span>Access</span></a></li>
-    </ul>
+  <nav class="nav_bgwrapper">
+    <div class="nav_bgupper">
+    <img src="homeimg/header_red.jpg" alt="header_red">
+    <div class="inner">
+      <ul>
+        <li><a href="room.html">ご宿泊<br><span>Stay</span></a></li>
+        <li><a href="#">バーラウンジ<br><span>Bar Lounge</span></a></li>
+        <li><a href="#">レストラン<br><span>Restaurant</span></a></li>
+        <li><a href="#">ギャラリー<br><span>Gallary</span></a></li>
+        <li><a href="#">交通案内<br><span>Access</span></a></li>
+      </ul>
+    </div><!-- inner -->
+  </div><!-- nav_bgupper -->
   </nav>
 
 
@@ -61,7 +63,7 @@
 
 
 
-  <section>
+  <section class="reserve">
     <h5>お部屋検索・宿泊予約<img src="homeimg/icon/down.png" alt="down"></h5>
     <form action="reservation.php">
       <dl class="reservation">
@@ -133,7 +135,7 @@
   </section>
 
 
-
+<div class="inner">
   <section class="contents">
     <h2>Tokyo Bayside Hotel</h2>
     <p class="hotel">ニューヨークモダンな外観デザイ＆コンテンポラリーなモダンインテリア<br>
@@ -202,11 +204,13 @@
     </section> <!-- plan -->
     <p class="more_info"><a href="#">詳しくはこちらへ</a></p>
   </section><!-- 東京ベイサイドホテル -->
-</div>
+  </div> <!-- inner -->
+
 
 
   <footer>
-    <section class="questions">
+    <section class="questions_wrapper">
+      <div class="inner">
       <img src="homeimg/bayside.jpg" alt="bayside">
       <div class="questions_contents">
         <h3>お問い合わせはこちらから</h3>
@@ -221,108 +225,111 @@
         <p class="tel">Tel : 03-6700-0001</p>
         <p class="questions_button"><a href="#">お問い合わせ</a></p>
       </div><!-- questions_contents -->
-    </section> <!-- questions -->
+      </div><!--  inner -->
+    </section> <!-- questions_wrapper -->
 
 
-    <div class="footer_bottom">
-      <div class="sitemap">
-        <ul>
-          <li>
-            <dl class="sitemap_long">
-              <dt><a href="index.html">ホーム</a></dt>
-              <dd class="dd_up"><a href="#">東京ベイサイドホテル</a></dd>
-              <dd><a href="#">新着情報</a></dd>
-              <dd><a href="#">ホテル案内</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl class="sitemap_short">
-              <dt><a href="#">ご宿泊</a></dt>
-              <dd class="dd_up"><a href="#">シングル</a></dd>
-              <dd><a href="room.html">ダブル</a></dd>
-              <dd><a href="#">ツイン</a></dd>
-              <dd><a href="#">スイート</a></dd>
-              <dd><a href="#">バリアフリー</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl class="sitemap_long">
-              <dt><a href="#">バーラウンジ</a></dt>
-              <dd class="dd_up"><a href="#">バーラウンジ<br>(Cuore_クオーレ)</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl class="sitemap_short">
-              <dt><a href="#">レストラン</a></dt>
-              <dd class="dd_up"><a href="#">おすすめメニュー</a></dd>
-              <dd><a href="#">朝食</a></dd>
-              <dd><a href="#">ランチ</a></dd>
-              <dd><a href="#">ナイトタイム</a></dd>
-              <dd><a href="#">ティー</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl class="sitemap_short">
-              <dt><a href="#">ギャラリー</a></dt>
-              <dd class="dd_up"><a href="#">フロアガイド</a></dd>
-              <dd><a href="#">ホテル全景</a></dd>
-              <dd><a href="#">お部屋</a></dd>
-              <dd><a href="#">バーラウンジ</a></dd>
-              <dd><a href="#">その他</a></dd>
-            </dl>
-          </li>
-          <li>
-            <dl class="sitemap_short">
-              <dt><a href="#">交通案内</a></dt>
-              <dd class="dd_up"><a href="#">アクセス</a></dd>
-              <dd><a href="#">周辺ガイド</a></dd>
-            </dl>
-          </li>
-        </ul>
-      </div><!-- sitemap -->
+    <div class="footer_wrapper">
+      <div class="inner">
+        <div class="sitemap">
+          <ul>
+            <li>
+              <dl class="sitemap_long">
+                <dt><a href="index.html">ホーム</a></dt>
+                <dd><a href="#">東京ベイサイドホテル</a></dd>
+                <dd><a href="#">新着情報</a></dd>
+                <dd><a href="#">ホテル案内</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt><a href="#">ご宿泊</a></dt>
+                <dd><a href="#">シングル</a></dd>
+                <dd><a href="room.html">ダブル</a></dd>
+                <dd><a href="#">ツイン</a></dd>
+                <dd><a href="#">スイート</a></dd>
+                <dd><a href="#">バリアフリー</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl class="sitemap_long">
+                <dt><a href="#">バーラウンジ</a></dt>
+                <dd><a href="#">バーラウンジ<br>(Cuore_クオーレ)</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt><a href="#">レストラン</a></dt>
+                <dd><a href="#">おすすめメニュー</a></dd>
+                <dd><a href="#">朝食</a></dd>
+                <dd><a href="#">ランチ</a></dd>
+                <dd><a href="#">ナイトタイム</a></dd>
+                <dd><a href="#">ティー</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt><a href="#">ギャラリー</a></dt>
+                <dd><a href="#">フロアガイド</a></dd>
+                <dd><a href="#">ホテル全景</a></dd>
+                <dd><a href="#">お部屋</a></dd>
+                <dd><a href="#">バーラウンジ</a></dd>
+                <dd><a href="#">その他</a></dd>
+              </dl>
+            </li>
+            <li>
+              <dl>
+                <dt><a href="#">交通案内</a></dt>
+                <dd><a href="#">アクセス</a></dd>
+                <dd><a href="#">周辺ガイド</a></dd>
+              </dl>
+            </li>
+          </ul>
+        </div><!-- sitemap -->
 
 
-      <div class="hotelinfo_etc">
-        <div class="about_hotel">
-          <img src="homeimg/logo_s.png" alt="icon_small">
-          <p class="hotelinfo">東京ベイサイドホテル(Tokyo Bayside Hotel)</p>
-          <p>〒135-0063　東京都江東区有明3-1-15<br>
-          Tel:03-6700-0001(代表)　Fax:03-6700-0007</p>
-          <p><a href="#">アクセスはこちら</a></p>
-        </div><!-- about hotel -->
+        <div class="hotelinfo_etc">
+          <div class="about_hotel">
+            <img src="homeimg/logo_s.png" alt="icon_small">
+            <p class="hotelinfo">東京ベイサイドホテル(Tokyo Bayside Hotel)</p>
+            <p>〒135-0063　東京都江東区有明3-1-15<br>
+            Tel:03-6700-0001(代表)　Fax:03-6700-0007</p>
+            <p><a href="#">アクセスはこちら</a></p>
+          </div><!-- about hotel -->
 
 
-        <div class="language-etc">
-          <div class=language>
-            <dl class="language_bar">
-              <dt><img src="homeimg/icon/japanflag.jpg" alt="japanese"></dt>
-              <dd><p><a href="#">日本語</a></p></dd>
-            </dl>
-            <dl class="language_bar">
-              <dt><img src="homeimg/icon/americaflag.jpg" alt="american"></dt>
-              <dd><p><a href="#">English</a></p></dd>
-            </dl>
-            <dl class="language_bar">
-              <dt><img src="homeimg/icon/chinaflag.jpg" alt="chinese"></dt>
-              <dd><p><a href="#">中文简体</p></a></dd>
-            </dl>
-            <dl>
-              <dt><img src="homeimg/icon/koreaflag.jpg" alt="korean"></dt>
-              <dd><p><a href="#">한국어</a></p></dd>
-            </dl>
-          </div><!-- language -->
+          <div class="language-etc">
+            <div class=language>
+              <dl class="language_bar">
+                <dt><img src="homeimg/icon/japanflag.jpg" alt="japanese"></dt>
+                <dd><p><a href="#">日本語</a></p></dd>
+              </dl>
+              <dl class="language_bar">
+                <dt><img src="homeimg/icon/americaflag.jpg" alt="american"></dt>
+                <dd><p><a href="#">English</a></p></dd>
+              </dl>
+              <dl class="language_bar">
+                <dt><img src="homeimg/icon/chinaflag.jpg" alt="chinese"></dt>
+                <dd><p><a href="#">中文简体</p></a></dd>
+              </dl>
+              <dl>
+                <dt><img src="homeimg/icon/koreaflag.jpg" alt="korean"></dt>
+                <dd><p><a href="#">한국어</a></p></dd>
+              </dl>
+            </div><!-- language -->
 
 
-          <div class="etc">
-            <ul>
-              <li><a href="#">プライバシーポリシー</a></li>
-              <li class="etc1"><a href="#">採用情報</a></li>
-            </ul>
-            <p class="copyright"><small>Copyright &copy; Tokyo Bayside Hotel</small></p>
-          </div> <!-- etc -->
-        </div><!-- language-etc -->
-      </div><!-- hotelinfo_etc -->
-    </div> <!-- footer_bottom -->
+            <div class="etc">
+              <ul>
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li class="etc1"><a href="#">採用情報</a></li>
+              </ul>
+              <p class="copyright"><small>Copyright &copy; Tokyo Bayside Hotel</small></p>
+            </div> <!-- etc -->
+          </div><!-- language-etc -->
+        </div><!-- hotelinfo_etc -->
+      </div><!-- inner -->
+    </div> <!-- footer_wrapper -->
   </footer>
 </div><!-- wrapper -->
 </body>
