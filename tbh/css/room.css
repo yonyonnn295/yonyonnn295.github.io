@@ -430,12 +430,16 @@ h3{
   float:right;
 }
 
+.button{
+  margin-top:30px;
+}
+
 .button1{
   float:left;
 }
 
 .button2{
-  float:right;
+  float:left;
 }
 
 .button li{
@@ -448,7 +452,10 @@ h3{
   border-radius:10px;
   text-align:center;
   line-height:2.6;
+  margin-right:10px;
 }
+
+
 
 
 
