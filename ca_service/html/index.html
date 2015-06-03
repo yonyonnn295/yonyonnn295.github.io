@@ -29,8 +29,12 @@
 
         //menu
         $('.menu').click(function(){
-          $('.menuon').toggle();
-          $('.blackmenuon').toggle();
+          $('.menuon').show();
+          $('.blackmenuon').show();
+        });
+        $('.blackmenuon').click(function(){
+          $('.blackmenuon').hide();
+          $('.menuon').hide();
         });
       });
   </script>
@@ -61,11 +65,7 @@
     <div class="blackmenuon"><img src="top_img/blackmenuon.png" alt="Menubar_black"></div>
     <div class="menuon">
       <ul>
-        <li class="menu01">
-          <a href="#">
-            <p>キュレーション</p>
-          </a>
-        </li>
+        <li class="menu01"><a href="#"><p>キュレーション</p></a></li>
         <li class="menu02"><a href="#"><p>コミュニティ</p></a></li>
         <li class="menu03"><a href="game.html"><p>ゲーム</p></a></li>
         <li class="menu04"><a href="#"><p>アメーバピグ</p></a></li>

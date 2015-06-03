@@ -6,6 +6,7 @@
 }
 
 
+
 /* header */
 header{
   width: 100%;
@@ -14,6 +15,8 @@ header{
   background-color:#000;
   position:relative;
 }
+
+
 
 /* menu */
 .menu, h1, .social{
@@ -70,43 +73,61 @@ nav .menuon ul li a:visited{
   color:#191919;
 }
 
+
+
+/* メニュー詳細 */ーーーーーーーーーーーーーーーーーーーーーーー
 nav .menuon ul li a p{
   padding-top:55px;
 }
-
 .menu01 p{
   background:url(../top_img/curation.png) center center no-repeat;
   padding-top:32px;
 }
-
 .menu02 p{
   background:url(../top_img/community.png)center center no-repeat;
   padding-top:32px;
 }
-
 .menu03 p{
   background:url(../top_img/game.png)center center no-repeat;
   padding-top:32px;
 }
-
 .menu04 p{
   background:url(../top_img/pigg.png)center center no-repeat;
   padding-top:28px;
 }
-
 .menu05 p{
   background:url(../top_img/entertain.png)center center no-repeat;
   padding-top:33px;
 }
-
 .menu06 p{
   background:url(../top_img/news.png)center center no-repeat;
   padding-top:32px;
 }
+
+nav .menuon ul .menu01 a:hover{
+  border-right: 4px solid #de7238;
+}
+nav .menuon ul .menu02 a:hover{
+  border-right: 4px solid #43ab41;
+}
+nav .menuon ul .menu03 a:hover{
+  border-right: 4px solid #5776cb;
+}
+nav .menuon ul .menu04 a:hover{
+  border-right: 4px solid #31b4ad;
+}
+nav .menuon ul .menu05 a:hover{
+  border-right: 4px solid #ce6cc5;
+}
+nav .menuon ul .menu06 a:hover{
+  border-right: 4px solid #82be28;
+}
+/* メニュー詳細 */ーーーーーーーーーーーーーーーーーーーーーーー
+
 /* menu */
 
 
-h1{
+header h1{
   top:14px;
   left:0%;
   margin-left:165px;
