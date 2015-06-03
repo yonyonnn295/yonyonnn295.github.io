@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>CA Service</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script>
+      $(function(){
+        // rollover
+        $('.rollover').each(function() {
+          var a = $(this);
+          var img = a.find('img');
+          var src_off = img.attr('src');
+          var src_on = src_off.replace('_off', '_on');
+          $('<img />').attr('src', src_on);
+
+          // console.log(src_off);
+
+          a.bind('mouseenter focus', function(){
+            img.attr('src', src_on);
+          });
+
+          a.bind('mouseleave blur', function(){
+            img.attr('src', src_off);
+          });
+        });
+
+        //menu
+        $('.menu').click(function(){
+          $('.menuon').show();
+          $('.blackmenuon').show();
+        });
+        $('.blackmenuon').click(function(){
+          $('.blackmenuon').hide();
+          $('.menuon').hide();
+        });
+      });
+  </script>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="index.html"><img src="top_img/logo.png" alt="CyberAgent_logo"></a></h1>
+      <div class="social">
+        <ul>
+          <li>
+            <a href="#"><img src="top_img/social1.png" alt="Ameba"></a>
+          </li>
+          <li>
+            <a href="#"><img src="top_img/social2.png" alt="Facebook"></a>
+          </li>
+          <li>
+            <a href="#"><img src="top_img/social3.png" alt="Twitter"></a>
+          </li>
+        </ul>
+        <div class="search"><img src="top_img/search.png" alt="Searchbar"></div>
+      </div> <!-- social -->
+    </header>
+    <!-- header -->
+
+  <nav>
+    <a class="menu" href="#"><img src="top_img/menu_bar.png" alt="Menubar"></a>
+    <div class="blackmenuon"><img src="top_img/blackmenuon.png" alt="Menubar_black"></div>
+    <div class="menuon">
+      <ul>
+        <li class="menu01"><a href="#"><p>キュレーション</p></a></li>
+        <li class="menu02"><a href="#"><p>コミュニティ</p></a></li>
+        <li class="menu03"><a href="game.html"><p>ゲーム</p></a></li>
+        <li class="menu04"><a href="#"><p>アメーバピグ</p></a></li>
+        <li class="menu05"><a href="#"><p>エンタメ</p></a></li>
+        <li class="menu06"><a href="#"><p>ニュース</p></a></li>
+      </ul>
+    </div><!-- menuon -->
+  </nav>
+
+
+
+    <div class="mainvisual">
+      <ul>
+        <li class="main1 rollover">
+          <a href="#"><img src="top_img/main1_off.png" alt="Main1"></a>
+        </li>
+        <li class="main2 rollover">
+          <a href="#"><img src="top_img/main2_off.png" alt="Main2"></a>
+        </li>
+        <li class="main3 rollover">
+          <a href="game.html"><img src="top_img/main3_off.png" alt="Main3"></a>
+        </li>
+        <li class="main4 rollover">
+          <a href="#"><img src="top_img/main4_off.png" alt="Main4"></a>
+        </li>
+        <li class="main5 rollover">
+          <a href="#"><img src="top_img/main5_off.png" alt="Main5"></a>
+        </li>
+        <li class="main6 rollover">
+          <a href="#"><img src="top_img/main6_off.png" alt="Main6"></a>
+        </li>
+      </ul>
+      <div>
+        <a class="left" href="#"><img src="top_img/left.png" alt="left"></a>
+        <a class="right" href="#"><img src="top_img/right.png" alt="right"></a>
+      </div>
+
+      <div class="service_choice">
+        <div class="service_tab">
+          <ul>
+            <li class="now">
+              <a href="#"><p>いますぐ遊べるサービス</p></a>
+            </li>
+            <li class="after">
+              <a href="#"><p>もうすぐ遊べるサービス</p></a>
+            </li>
+          </ul>
+        </div><!-- service_tab -->
+      </div><!-- service_choice -->
+    </div><!-- mainvisual -->
+
+
+
+    <div class="inner">
+      <section class="news">
+        <h2>ニュース<span>News</span></h2>
+        <hr>
+        <ul>
+          <li>
+            <div class="news_img"><a href="#"><img src="top_img/news1.png" alt="News1"></a></div>
+            <dl>
+              <dt>2015.05.29<span>ゲーム</span></dt>
+              <dd><a href="#">ご当地バトルゲーム「天下統一クロニクル」が大人気アニメ作品「進撃の巨人」とコラボレーションイベント実施</a></dd>
+            </dl>
+          </li>
+
+          <li class="news_left">
+            <div class="news_img"><a href="#"><img src="top_img/news2.png" alt="News2"></a></div>
+            <dl>
+              <dt>2015.05.28<span>ゲーム</span></dt>
+              <dd><a href="#">「Ameba」が贈る新作3D隊列バトルRPG「ロイヤルフラッシュヒーローズ」のiOS版アプリ提供を開始</a></dd>
+            </dl>
+          </li>
+
+          <li>
+            <div class="news_img"><a href="#"><img src="top_img/news3.png" alt="News3"></a></div>
+            <dl>
+              <dt>2015.05.26<span>ゲーム</span></dt>
+              <dd><a href="#">弾丸アクションRPG「ウチの姫さまがいちばんカワイイ」が大型アップデートを実施</a></dd>
+            </dl>
+          </li>
+
+          <li class="news_left">
+            <div class="news_img"><a href="#"><img src="top_img/news4.png" alt="News4"></a></div>
+            <dl class="entertainment_tag">
+              <dt>2015.05.20<span>エンタメ</span></dt>
+              <dd><a href="#">エイベックスとサイバーエージェントが手掛けるサブスクリプション型音楽配信サービス「AWA」</a></dd>
+            </dl>
+          </li>
+        </ul>
+        <a href="#"><p class="moreinfo">詳しくはこちら</p></a>
+      </section>　<!-- news -->
+
+
+      <section class="recommend">
+        <h2>イチオシサービス<span>Recommended Service</span></h2>
+        <hr>
+        <ul>
+          <li class="recommend01 rollover" >
+            <a href="#"><img src="top_img/recommend1_off.png" alt="Recommend1"></a>
+          </li>
+          <li class="recommend02 rollover" >
+            <a href="#"><img src="top_img/recommend2_off.png" alt="Recommend2"></a>
+          </li>
+          <li class="recommend03 rollover" >
+            <a href="#"><img src="top_img/recommend3_off.png" alt="Recommend3"></a>
+          </li>
+          <li class="recommend04 rollover">
+            <a href="#"><img src="top_img/recommend4_off.png" alt="Recommend4"></a>
+          </li>
+        </ul>
+        <a href="#"><p class="moreinfo">一覧はこちら</p></a>
+      </section> <!-- recommend -->
+
+
+
+      <footer>
+        <ul>
+          <li><a href="#"><p>会社ホームページ</p></a></li>
+          <li><a href="#"><p>サイトマップ</p></a></li>
+          <li><a href="#"><p>利用規約</p></a></li>
+          <li><a href="#"><p>採用情報</p></a></li>
+          <li><a href="#"><p>プライバシーポリシー</p></a></li>
+          <li><a href="#"><p>お問い合わせ</p></a></li>
+          <li class="language"><a href="#"><p>JAPANESE</p></a></li>
+        </ul>
+        <p class="copyright"><small>&copy; CyberaAgent, Inc.</small></p>
+      </footer>
+    </div><!-- inner -->
+  </div><!-- wrapper -->
+</body>
+</html>
